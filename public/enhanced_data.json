@@ -1,0 +1,204 @@
+{
+  "twitter": {
+    "total_tweets": 45000,
+    "classification": {
+      "hate_speech": {
+        "count": 2250,
+        "percentage": 5.0
+      },
+      "offensive": {
+        "count": 18000,
+        "percentage": 40.0
+      },
+      "neither": {
+        "count": 24750,
+        "percentage": 55.0
+      }
+    },
+    "timeline": [
+      { "date": "2024-01", "hate_speech_count": 180, "total_posts": 3500 },
+      { "date": "2024-02", "hate_speech_count": 165, "total_posts": 3200 },
+      { "date": "2024-03", "hate_speech_count": 195, "total_posts": 3800 },
+      { "date": "2024-04", "hate_speech_count": 210, "total_posts": 4000 },
+      { "date": "2024-05", "hate_speech_count": 175, "total_posts": 3600 },
+      { "date": "2024-06", "hate_speech_count": 220, "total_posts": 4200 },
+      { "date": "2024-07", "hate_speech_count": 185, "total_posts": 3700 },
+      { "date": "2024-08", "hate_speech_count": 200, "total_posts": 3900 },
+      { "date": "2024-09", "hate_speech_count": 190, "total_posts": 3800 },
+      { "date": "2024-10", "hate_speech_count": 205, "total_posts": 4100 },
+      { "date": "2024-11", "hate_speech_count": 170, "total_posts": 3400 },
+      { "date": "2024-12", "hate_speech_count": 195, "total_posts": 3900 }
+    ],
+    "top_words": [
+      ["toxic", 320],
+      ["hate", 285],
+      ["stupid", 245],
+      ["disgusting", 198],
+      ["terrible", 175],
+      ["awful", 162],
+      ["horrible", 145],
+      ["pathetic", 138],
+      ["loser", 125],
+      ["trash", 118],
+      ["idiot", 112],
+      ["worthless", 95],
+      ["crazy", 88],
+      ["sick", 82],
+      ["wrong", 75]
+    ],
+    "sentiment": [
+      { "category": "Very Negative", "count": 8500, "percentage": 18.9 },
+      { "category": "Negative", "count": 12500, "percentage": 27.8 },
+      { "category": "Neutral", "count": 18000, "percentage": 40.0 },
+      { "category": "Positive", "count": 5000, "percentage": 11.1 },
+      { "category": "Very Positive", "count": 1000, "percentage": 2.2 }
+    ],
+    "user_interaction_network": {
+      "nodes": [
+        { "id": "user1", "group": "hate_spreader", "connections": 45, "influence_score": 8.5 },
+        { "id": "user2", "group": "regular", "connections": 12, "influence_score": 3.2 },
+        { "id": "user3", "group": "hate_spreader", "connections": 67, "influence_score": 9.1 },
+        { "id": "user4", "group": "moderator", "connections": 23, "influence_score": 7.8 },
+        { "id": "user5", "group": "regular", "connections": 8, "influence_score": 2.1 },
+        { "id": "user6", "group": "hate_spreader", "connections": 52, "influence_score": 8.9 },
+        { "id": "user7", "group": "regular", "connections": 15, "influence_score": 3.8 },
+        { "id": "user8", "group": "moderator", "connections": 34, "influence_score": 8.2 },
+        { "id": "user9", "group": "regular", "connections": 19, "influence_score": 4.1 },
+        { "id": "user10", "group": "hate_spreader", "connections": 41, "influence_score": 7.6 }
+      ],
+      "links": [
+        { "source": "user1", "target": "user2", "strength": 0.8 },
+        { "source": "user1", "target": "user3", "strength": 0.9 },
+        { "source": "user3", "target": "user6", "strength": 0.7 },
+        { "source": "user4", "target": "user8", "strength": 0.6 },
+        { "source": "user2", "target": "user5", "strength": 0.4 },
+        { "source": "user6", "target": "user10", "strength": 0.8 },
+        { "source": "user7", "target": "user9", "strength": 0.5 },
+        { "source": "user8", "target": "user4", "strength": 0.7 },
+        { "source": "user9", "target": "user2", "strength": 0.3 },
+        { "source": "user10", "target": "user1", "strength": 0.6 }
+      ]
+    },
+    "user_patterns": [
+      { "pattern": "Bot-like Behavior", "count": 850, "percentage": 12.3 },
+      { "pattern": "Coordinated Attacks", "count": 420, "percentage": 6.1 },
+      { "pattern": "Repeat Offenders", "count": 1250, "percentage": 18.1 },
+      { "pattern": "New Account Spam", "count": 650, "percentage": 9.4 },
+      { "pattern": "Sockpuppet Networks", "count": 320, "percentage": 4.6 },
+      { "pattern": "Casual Hate", "count": 3400, "percentage": 49.5 }
+    ]
+  },
+  "reddit": {
+    "total_posts": 35000,
+    "subreddits": [
+      { "name": "r/politics", "total_posts": 5500, "hate_count": 275 },
+      { "name": "r/news", "total_posts": 4200, "hate_count": 168 },
+      { "name": "r/worldnews", "total_posts": 3800, "hate_count": 190 },
+      { "name": "r/unpopularopinion", "total_posts": 2900, "hate_count": 435 },
+      { "name": "r/conspiracy", "total_posts": 2100, "hate_count": 378 },
+      { "name": "r/AskReddit", "total_posts": 6200, "hate_count": 186 },
+      { "name": "r/dankmemes", "total_posts": 3400, "hate_count": 272 },
+      { "name": "r/gaming", "total_posts": 2800, "hate_count": 112 },
+      { "name": "r/funny", "total_posts": 4100, "hate_count": 82 }
+    ],
+    "intervention_effectiveness": [
+      { "month": "Jan", "effectiveness": 65, "interventions": 120 },
+      { "month": "Feb", "effectiveness": 68, "interventions": 135 },
+      { "month": "Mar", "effectiveness": 72, "interventions": 145 },
+      { "month": "Apr", "effectiveness": 70, "interventions": 160 },
+      { "month": "May", "effectiveness": 75, "interventions": 142 },
+      { "month": "Jun", "effectiveness": 78, "interventions": 155 },
+      { "month": "Jul", "effectiveness": 82, "interventions": 170 },
+      { "month": "Aug", "effectiveness": 85, "interventions": 180 },
+      { "month": "Sep", "effectiveness": 88, "interventions": 165 },
+      { "month": "Oct", "effectiveness": 90, "interventions": 175 },
+      { "month": "Nov", "effectiveness": 92, "interventions": 158 },
+      { "month": "Dec", "effectiveness": 94, "interventions": 190 }
+    ],
+    "conversation_depth": {
+      "1-2 levels": 12500,
+      "3-5 levels": 8900,
+      "6-10 levels": 6200,
+      "11-20 levels": 4800,
+      "21+ levels": 2600
+    },
+    "conversation_flow": {
+      "nodes": [
+        { "id": "original_post", "type": "post", "hate_level": 0.2, "engagement": 150 },
+        { "id": "comment_1", "type": "comment", "hate_level": 0.8, "engagement": 45 },
+        { "id": "comment_2", "type": "comment", "hate_level": 0.1, "engagement": 32 },
+        { "id": "reply_1_1", "type": "reply", "hate_level": 0.9, "engagement": 28 },
+        { "id": "reply_1_2", "type": "reply", "hate_level": 0.3, "engagement": 15 },
+        { "id": "reply_2_1", "type": "reply", "hate_level": 0.0, "engagement": 8 },
+        { "id": "nested_1", "type": "nested", "hate_level": 0.7, "engagement": 12 },
+        { "id": "nested_2", "type": "nested", "hate_level": 0.4, "engagement": 6 }
+      ],
+      "links": [
+        { "source": "original_post", "target": "comment_1", "interaction_type": "direct_reply" },
+        { "source": "original_post", "target": "comment_2", "interaction_type": "direct_reply" },
+        { "source": "comment_1", "target": "reply_1_1", "interaction_type": "reply" },
+        { "source": "comment_1", "target": "reply_1_2", "interaction_type": "reply" },
+        { "source": "comment_2", "target": "reply_2_1", "interaction_type": "reply" },
+        { "source": "reply_1_1", "target": "nested_1", "interaction_type": "nested_reply" },
+        { "source": "reply_1_2", "target": "nested_2", "interaction_type": "nested_reply" }
+      ]
+    }
+  },
+  "comparative": {
+    "platform_comparison": {
+      "volume": {
+        "twitter": 45000,
+        "reddit": 35000
+      },
+      "hate_speech_rate": {
+        "twitter": 5.0,
+        "reddit": 5.4
+      },
+      "user_engagement": {
+        "twitter": 8.2,
+        "reddit": 12.5
+      },
+      "moderation_effectiveness": {
+        "twitter": 72,
+        "reddit": 85
+      }
+    },
+    "cross_platform_trends": [
+      { "month": "Jan", "twitter_hate_rate": 5.2, "reddit_hate_rate": 5.8 },
+      { "month": "Feb", "twitter_hate_rate": 5.0, "reddit_hate_rate": 5.6 },
+      { "month": "Mar", "twitter_hate_rate": 5.1, "reddit_hate_rate": 5.4 },
+      { "month": "Apr", "twitter_hate_rate": 5.3, "reddit_hate_rate": 5.7 },
+      { "month": "May", "twitter_hate_rate": 4.9, "reddit_hate_rate": 5.2 },
+      { "month": "Jun", "twitter_hate_rate": 5.2, "reddit_hate_rate": 5.5 },
+      { "month": "Jul", "twitter_hate_rate": 5.0, "reddit_hate_rate": 5.3 },
+      { "month": "Aug", "twitter_hate_rate": 5.1, "reddit_hate_rate": 5.4 },
+      { "month": "Sep", "twitter_hate_rate": 4.8, "reddit_hate_rate": 5.1 },
+      { "month": "Oct", "twitter_hate_rate": 5.0, "reddit_hate_rate": 5.3 },
+      { "month": "Nov", "twitter_hate_rate": 4.7, "reddit_hate_rate": 4.9 },
+      { "month": "Dec", "twitter_hate_rate": 4.9, "reddit_hate_rate": 5.0 }
+    ],
+    "intervention_strategies": [
+      { "strategy": "Content Removal", "twitter_effectiveness": 78, "reddit_effectiveness": 85 },
+      { "strategy": "User Warnings", "twitter_effectiveness": 65, "reddit_effectiveness": 72 },
+      { "strategy": "Account Suspension", "twitter_effectiveness": 92, "reddit_effectiveness": 88 },
+      { "strategy": "Community Moderation", "twitter_effectiveness": 45, "reddit_effectiveness": 78 },
+      { "strategy": "Algorithmic Detection", "twitter_effectiveness": 82, "reddit_effectiveness": 75 },
+      { "strategy": "Counter-Speech", "twitter_effectiveness": 58, "reddit_effectiveness": 68 }
+    ],
+    "geographic_distribution": [
+      { "region": "North America", "hate_incidents": 8500, "population": 50000000, "rate": 17.0 },
+      { "region": "Europe", "hate_incidents": 6200, "population": 45000000, "rate": 13.8 },
+      { "region": "Asia", "hate_incidents": 4800, "population": 85000000, "rate": 5.6 },
+      { "region": "South America", "hate_incidents": 2900, "population": 25000000, "rate": 11.6 },
+      { "region": "Africa", "hate_incidents": 1800, "population": 30000000, "rate": 6.0 },
+      { "region": "Oceania", "hate_incidents": 950, "population": 8000000, "rate": 11.9 }
+    ],
+    "hate_speech_evolution": [
+      { "year": "2020", "platforms": 2.5, "severity": 6.2, "volume": 12000 },
+      { "year": "2021", "platforms": 3.1, "severity": 6.8, "volume": 18500 },
+      { "year": "2022", "platforms": 4.2, "severity": 7.1, "volume": 25000 },
+      { "year": "2023", "platforms": 4.8, "severity": 6.9, "volume": 32000 },
+      { "year": "2024", "platforms": 5.0, "severity": 6.5, "volume": 35000 }
+    ]
+  }
+}
