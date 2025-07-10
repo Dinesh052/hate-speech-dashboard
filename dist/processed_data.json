@@ -1,0 +1,525 @@
+{
+  "twitter": {
+    "total_tweets": 24783,
+    "classification": {
+      "hate_speech": {
+        "count": 1430,
+        "percentage": 5.8
+      },
+      "offensive": {
+        "count": 19190,
+        "percentage": 77.4
+      },
+      "neither": {
+        "count": 4163,
+        "percentage": 16.8
+      }
+    },
+    "top_words": [
+      [
+        "bitch",
+        209
+      ],
+      [
+        "that",
+        196
+      ],
+      [
+        "faggot",
+        191
+      ],
+      [
+        "like",
+        169
+      ],
+      [
+        "nigga",
+        140
+      ],
+      [
+        "white",
+        127
+      ],
+      [
+        "your",
+        125
+      ],
+      [
+        "fuck",
+        121
+      ],
+      [
+        "http",
+        117
+      ],
+      [
+        "this",
+        115
+      ],
+      [
+        "trash",
+        113
+      ],
+      [
+        "nigger",
+        112
+      ],
+      [
+        "they",
+        97
+      ],
+      [
+        "fucking",
+        95
+      ],
+      [
+        "with",
+        78
+      ],
+      [
+        "niggas",
+        76
+      ],
+      [
+        "what",
+        75
+      ],
+      [
+        "just",
+        75
+      ],
+      [
+        "have",
+        64
+      ],
+      [
+        "these",
+        63
+      ]
+    ],
+    "timeline": [
+      {
+        "date": "2023-01-01",
+        "hate_speech_count": 52,
+        "total_posts": 807
+      },
+      {
+        "date": "2023-01-02",
+        "hate_speech_count": 57,
+        "total_posts": 807
+      },
+      {
+        "date": "2023-01-03",
+        "hate_speech_count": 46,
+        "total_posts": 796
+      },
+      {
+        "date": "2023-01-04",
+        "hate_speech_count": 47,
+        "total_posts": 829
+      },
+      {
+        "date": "2023-01-05",
+        "hate_speech_count": 44,
+        "total_posts": 824
+      },
+      {
+        "date": "2023-01-06",
+        "hate_speech_count": 43,
+        "total_posts": 777
+      },
+      {
+        "date": "2023-01-07",
+        "hate_speech_count": 58,
+        "total_posts": 815
+      },
+      {
+        "date": "2023-01-08",
+        "hate_speech_count": 54,
+        "total_posts": 857
+      },
+      {
+        "date": "2023-01-09",
+        "hate_speech_count": 53,
+        "total_posts": 826
+      },
+      {
+        "date": "2023-01-10",
+        "hate_speech_count": 59,
+        "total_posts": 808
+      },
+      {
+        "date": "2023-01-11",
+        "hate_speech_count": 48,
+        "total_posts": 822
+      },
+      {
+        "date": "2023-01-12",
+        "hate_speech_count": 43,
+        "total_posts": 820
+      },
+      {
+        "date": "2023-01-13",
+        "hate_speech_count": 52,
+        "total_posts": 798
+      },
+      {
+        "date": "2023-01-14",
+        "hate_speech_count": 58,
+        "total_posts": 799
+      },
+      {
+        "date": "2023-01-15",
+        "hate_speech_count": 52,
+        "total_posts": 842
+      },
+      {
+        "date": "2023-01-16",
+        "hate_speech_count": 43,
+        "total_posts": 850
+      },
+      {
+        "date": "2023-01-17",
+        "hate_speech_count": 55,
+        "total_posts": 836
+      },
+      {
+        "date": "2023-01-18",
+        "hate_speech_count": 46,
+        "total_posts": 815
+      },
+      {
+        "date": "2023-01-19",
+        "hate_speech_count": 45,
+        "total_posts": 818
+      },
+      {
+        "date": "2023-01-20",
+        "hate_speech_count": 42,
+        "total_posts": 847
+      },
+      {
+        "date": "2023-01-21",
+        "hate_speech_count": 49,
+        "total_posts": 827
+      },
+      {
+        "date": "2023-01-22",
+        "hate_speech_count": 46,
+        "total_posts": 809
+      },
+      {
+        "date": "2023-01-23",
+        "hate_speech_count": 50,
+        "total_posts": 866
+      },
+      {
+        "date": "2023-01-24",
+        "hate_speech_count": 51,
+        "total_posts": 808
+      },
+      {
+        "date": "2023-01-25",
+        "hate_speech_count": 45,
+        "total_posts": 839
+      },
+      {
+        "date": "2023-01-26",
+        "hate_speech_count": 53,
+        "total_posts": 834
+      },
+      {
+        "date": "2023-01-27",
+        "hate_speech_count": 46,
+        "total_posts": 791
+      },
+      {
+        "date": "2023-01-28",
+        "hate_speech_count": 60,
+        "total_posts": 839
+      },
+      {
+        "date": "2023-01-29",
+        "hate_speech_count": 45,
+        "total_posts": 820
+      },
+      {
+        "date": "2023-01-30",
+        "hate_speech_count": 40,
+        "total_posts": 784
+      }
+    ],
+    "sentiment": {
+      "very_negative": 5.8,
+      "negative": 54.2,
+      "neutral": 40.0,
+      "positive": 5.2,
+      "very_positive": 2.1
+    },
+    "user_network": {
+      "nodes": [
+        { "id": "user1", "label": "user1" },
+        { "id": "user2", "label": "user2" },
+        { "id": "user3", "label": "user3" },
+        { "id": "user4", "label": "user4" },
+        { "id": "user5", "label": "user5" }
+      ],
+      "links": [
+        { "source": "user1", "target": "user2", "weight": 3 },
+        { "source": "user2", "target": "user3", "weight": 2 },
+        { "source": "user3", "target": "user4", "weight": 4 },
+        { "source": "user4", "target": "user5", "weight": 1 },
+        { "source": "user5", "target": "user1", "weight": 2 },
+        { "source": "user1", "target": "user3", "weight": 1 }
+      ]
+    }
+  },
+  "reddit": {
+    "total_conversations": 5020,
+    "hate_speech_conversations": 3847,
+    "total_hate_posts": 5259,
+    "total_responses": 10243,
+    "success_rate": 73,
+    "subreddit_data": [
+      {
+        "name": "r/politics",
+        "hate_count": 156,
+        "total_posts": 2847
+      },
+      {
+        "name": "r/news",
+        "hate_count": 89,
+        "total_posts": 1923
+      },
+      {
+        "name": "r/worldnews",
+        "hate_count": 134,
+        "total_posts": 2156
+      },
+      {
+        "name": "r/unpopularopinion",
+        "hate_count": 203,
+        "total_posts": 1876
+      },
+      {
+        "name": "r/changemyview",
+        "hate_count": 67,
+        "total_posts": 1543
+      },
+      {
+        "name": "r/askreddit",
+        "hate_count": 45,
+        "total_posts": 3421
+      },
+      {
+        "name": "r/relationship_advice",
+        "hate_count": 78,
+        "total_posts": 1987
+      },
+      {
+        "name": "r/amitheasshole",
+        "hate_count": 120,
+        "total_posts": 2234
+      }
+    ],
+    "intervention_timeline": [
+      {
+        "month": "2023-01",
+        "effectiveness": 77.8,
+        "interventions": 879
+      },
+      {
+        "month": "2023-01",
+        "effectiveness": 74.8,
+        "interventions": 848
+      },
+      {
+        "month": "2023-03",
+        "effectiveness": 75.3,
+        "interventions": 919
+      },
+      {
+        "month": "2023-04",
+        "effectiveness": 74.8,
+        "interventions": 839
+      },
+      {
+        "month": "2023-05",
+        "effectiveness": 72.4,
+        "interventions": 821
+      },
+      {
+        "month": "2023-05",
+        "effectiveness": 71.0,
+        "interventions": 786
+      },
+      {
+        "month": "2023-06",
+        "effectiveness": 70.3,
+        "interventions": 866
+      },
+      {
+        "month": "2023-07",
+        "effectiveness": 72.1,
+        "interventions": 868
+      },
+      {
+        "month": "2023-08",
+        "effectiveness": 75.1,
+        "interventions": 851
+      },
+      {
+        "month": "2023-09",
+        "effectiveness": 76.3,
+        "interventions": 891
+      },
+      {
+        "month": "2023-10",
+        "effectiveness": 73.2,
+        "interventions": 847
+      },
+      {
+        "month": "2023-11",
+        "effectiveness": 75.3,
+        "interventions": 794
+      }
+    ],
+    "conversation_depths": {
+      "shallow (1-2 posts)": 2847,
+      "medium (3-5 posts)": 1576,
+      "deep (6+ posts)": 597
+    },
+    "conversation_flow_data": [
+      {
+        "source": "Initial Post",
+        "target": "First Response",
+        "value": 2847,
+        "type": "normal"
+      },
+      {
+        "source": "First Response",
+        "target": "Counter Response",
+        "value": 1576,
+        "type": "escalation"
+      },
+      {
+        "source": "Counter Response",
+        "target": "Intervention",
+        "value": 892,
+        "type": "intervention"
+      },
+      {
+        "source": "Counter Response",
+        "target": "Deep Discussion",
+        "value": 684,
+        "type": "normal"
+      },
+      {
+        "source": "Intervention",
+        "target": "De-escalation",
+        "value": 651,
+        "type": "success"
+      },
+      {
+        "source": "Intervention",
+        "target": "Continued Toxicity",
+        "value": 241,
+        "type": "failure"
+      },
+      {
+        "source": "Deep Discussion",
+        "target": "Resolution",
+        "value": 425,
+        "type": "success"
+      },
+      {
+        "source": "Deep Discussion",
+        "target": "Abandonment",
+        "value": 259,
+        "type": "neutral"
+      }
+    ]
+  },
+  "comparative": {
+    "comparison": {
+      "volume": {
+        "twitter": 24783,
+        "reddit": 5020
+      },
+      "hate_speech_rate": {
+        "twitter": 5.8,
+        "reddit": 76.6
+      },
+      "intervention_capability": {
+        "twitter": "Limited (reporting only)",
+        "reddit": "73% success rate"
+      }
+    },
+    "trends": [
+      {
+        "month": "2023-01",
+        "twitter_hate_rate": 5.9,
+        "reddit_hate_rate": 20.4
+      },
+      {
+        "month": "2023-01",
+        "twitter_hate_rate": 5.2,
+        "reddit_hate_rate": 17.8
+      },
+      {
+        "month": "2023-03",
+        "twitter_hate_rate": 6.3,
+        "reddit_hate_rate": 17.3
+      },
+      {
+        "month": "2023-04",
+        "twitter_hate_rate": 6.4,
+        "reddit_hate_rate": 16.7
+      },
+      {
+        "month": "2023-05",
+        "twitter_hate_rate": 5.4,
+        "reddit_hate_rate": 20.1
+      },
+      {
+        "month": "2023-05",
+        "twitter_hate_rate": 6.3,
+        "reddit_hate_rate": 17.9
+      },
+      {
+        "month": "2023-06",
+        "twitter_hate_rate": 5.6,
+        "reddit_hate_rate": 18.1
+      },
+      {
+        "month": "2023-07",
+        "twitter_hate_rate": 6.2,
+        "reddit_hate_rate": 16.9
+      },
+      {
+        "month": "2023-08",
+        "twitter_hate_rate": 7.1,
+        "reddit_hate_rate": 17.9
+      },
+      {
+        "month": "2023-09",
+        "twitter_hate_rate": 6.5,
+        "reddit_hate_rate": 17.8
+      },
+      {
+        "month": "2023-10",
+        "twitter_hate_rate": 6.1,
+        "reddit_hate_rate": 17.6
+      },
+      {
+        "month": "2023-11",
+        "twitter_hate_rate": 6.2,
+        "reddit_hate_rate": 18.0
+      }
+    ]
+  },
+  "metadata": {
+    "processed_at": "2025-07-09T14:34:10.985299",
+    "version": "1.0"
+  }
+}
